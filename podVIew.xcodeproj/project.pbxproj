@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E15B0681DDD493C00DD7AAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E15B0671DDD493C00DD7AAC /* main.m */; };
+		3E15B06B1DDD493C00DD7AAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E15B06A1DDD493C00DD7AAC /* AppDelegate.m */; };
+		3E15B06E1DDD493C00DD7AAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E15B06D1DDD493C00DD7AAC /* ViewController.m */; };
+		3E15B0711DDD493C00DD7AAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E15B06F1DDD493C00DD7AAC /* Main.storyboard */; };
+		3E15B0731DDD493C00DD7AAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E15B0721DDD493C00DD7AAC /* Assets.xcassets */; };
+		3E15B0761DDD493C00DD7AAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E15B0741DDD493C00DD7AAC /* LaunchScreen.storyboard */; };
+		3E15B0811DDD493C00DD7AAC /* podVIewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E15B0801DDD493C00DD7AAC /* podVIewTests.m */; };
+		3E15B08C1DDD493C00DD7AAC /* podVIewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E15B08B1DDD493C00DD7AAC /* podVIewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E15B07D1DDD493C00DD7AAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E15B05B1DDD493900DD7AAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E15B0621DDD493A00DD7AAC;
+			remoteInfo = podVIew;
+		};
+		3E15B0881DDD493C00DD7AAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E15B05B1DDD493900DD7AAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E15B0621DDD493A00DD7AAC;
+			remoteInfo = podVIew;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E15B0631DDD493A00DD7AAC /* podVIew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = podVIew.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E15B0671DDD493C00DD7AAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E15B0691DDD493C00DD7AAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3E15B06A1DDD493C00DD7AAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3E15B06C1DDD493C00DD7AAC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3E15B06D1DDD493C00DD7AAC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3E15B0701DDD493C00DD7AAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E15B0721DDD493C00DD7AAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E15B0751DDD493C00DD7AAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E15B0771DDD493C00DD7AAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E15B07C1DDD493C00DD7AAC /* podVIewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = podVIewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E15B0801DDD493C00DD7AAC /* podVIewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = podVIewTests.m; sourceTree = "<group>"; };
+		3E15B0821DDD493C00DD7AAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E15B0871DDD493C00DD7AAC /* podVIewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = podVIewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E15B08B1DDD493C00DD7AAC /* podVIewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = podVIewUITests.m; sourceTree = "<group>"; };
+		3E15B08D1DDD493C00DD7AAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E15B0601DDD493A00DD7AAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E15B0791DDD493C00DD7AAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E15B0841DDD493C00DD7AAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E15B05A1DDD493900DD7AAC = {
+			isa = PBXGroup;
+			children = (
+				3E15B0651DDD493B00DD7AAC /* podVIew */,
+				3E15B07F1DDD493C00DD7AAC /* podVIewTests */,
+				3E15B08A1DDD493C00DD7AAC /* podVIewUITests */,
+				3E15B0641DDD493A00DD7AAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E15B0641DDD493A00DD7AAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E15B0631DDD493A00DD7AAC /* podVIew.app */,
+				3E15B07C1DDD493C00DD7AAC /* podVIewTests.xctest */,
+				3E15B0871DDD493C00DD7AAC /* podVIewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E15B0651DDD493B00DD7AAC /* podVIew */ = {
+			isa = PBXGroup;
+			children = (
+				3E15B0691DDD493C00DD7AAC /* AppDelegate.h */,
+				3E15B06A1DDD493C00DD7AAC /* AppDelegate.m */,
+				3E15B06C1DDD493C00DD7AAC /* ViewController.h */,
+				3E15B06D1DDD493C00DD7AAC /* ViewController.m */,
+				3E15B06F1DDD493C00DD7AAC /* Main.storyboard */,
+				3E15B0721DDD493C00DD7AAC /* Assets.xcassets */,
+				3E15B0741DDD493C00DD7AAC /* LaunchScreen.storyboard */,
+				3E15B0771DDD493C00DD7AAC /* Info.plist */,
+				3E15B0661DDD493B00DD7AAC /* Supporting Files */,
+			);
+			path = podVIew;
+			sourceTree = "<group>";
+		};
+		3E15B0661DDD493B00DD7AAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E15B0671DDD493C00DD7AAC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E15B07F1DDD493C00DD7AAC /* podVIewTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E15B0801DDD493C00DD7AAC /* podVIewTests.m */,
+				3E15B0821DDD493C00DD7AAC /* Info.plist */,
+			);
+			path = podVIewTests;
+			sourceTree = "<group>";
+		};
+		3E15B08A1DDD493C00DD7AAC /* podVIewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3E15B08B1DDD493C00DD7AAC /* podVIewUITests.m */,
+				3E15B08D1DDD493C00DD7AAC /* Info.plist */,
+			);
+			path = podVIewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E15B0621DDD493A00DD7AAC /* podVIew */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E15B0901DDD493D00DD7AAC /* Build configuration list for PBXNativeTarget "podVIew" */;
+			buildPhases = (
+				3E15B05F1DDD493A00DD7AAC /* Sources */,
+				3E15B0601DDD493A00DD7AAC /* Frameworks */,
+				3E15B0611DDD493A00DD7AAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = podVIew;
+			productName = podVIew;
+			productReference = 3E15B0631DDD493A00DD7AAC /* podVIew.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E15B07B1DDD493C00DD7AAC /* podVIewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E15B0931DDD493D00DD7AAC /* Build configuration list for PBXNativeTarget "podVIewTests" */;
+			buildPhases = (
+				3E15B0781DDD493C00DD7AAC /* Sources */,
+				3E15B0791DDD493C00DD7AAC /* Frameworks */,
+				3E15B07A1DDD493C00DD7AAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E15B07E1DDD493C00DD7AAC /* PBXTargetDependency */,
+			);
+			name = podVIewTests;
+			productName = podVIewTests;
+			productReference = 3E15B07C1DDD493C00DD7AAC /* podVIewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3E15B0861DDD493C00DD7AAC /* podVIewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E15B0961DDD493D00DD7AAC /* Build configuration list for PBXNativeTarget "podVIewUITests" */;
+			buildPhases = (
+				3E15B0831DDD493C00DD7AAC /* Sources */,
+				3E15B0841DDD493C00DD7AAC /* Frameworks */,
+				3E15B0851DDD493C00DD7AAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E15B0891DDD493C00DD7AAC /* PBXTargetDependency */,
+			);
+			name = podVIewUITests;
+			productName = podVIewUITests;
+			productReference = 3E15B0871DDD493C00DD7AAC /* podVIewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E15B05B1DDD493900DD7AAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = hengshuimofangkeji;
+				TargetAttributes = {
+					3E15B0621DDD493A00DD7AAC = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					3E15B07B1DDD493C00DD7AAC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3E15B0621DDD493A00DD7AAC;
+					};
+					3E15B0861DDD493C00DD7AAC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3E15B0621DDD493A00DD7AAC;
+					};
+				};
+			};
+			buildConfigurationList = 3E15B05E1DDD493900DD7AAC /* Build configuration list for PBXProject "podVIew" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E15B05A1DDD493900DD7AAC;
+			productRefGroup = 3E15B0641DDD493A00DD7AAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E15B0621DDD493A00DD7AAC /* podVIew */,
+				3E15B07B1DDD493C00DD7AAC /* podVIewTests */,
+				3E15B0861DDD493C00DD7AAC /* podVIewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E15B0611DDD493A00DD7AAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E15B0761DDD493C00DD7AAC /* LaunchScreen.storyboard in Resources */,
+				3E15B0731DDD493C00DD7AAC /* Assets.xcassets in Resources */,
+				3E15B0711DDD493C00DD7AAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E15B07A1DDD493C00DD7AAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E15B0851DDD493C00DD7AAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E15B05F1DDD493A00DD7AAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E15B06E1DDD493C00DD7AAC /* ViewController.m in Sources */,
+				3E15B06B1DDD493C00DD7AAC /* AppDelegate.m in Sources */,
+				3E15B0681DDD493C00DD7AAC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E15B0781DDD493C00DD7AAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E15B0811DDD493C00DD7AAC /* podVIewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E15B0831DDD493C00DD7AAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E15B08C1DDD493C00DD7AAC /* podVIewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E15B07E1DDD493C00DD7AAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E15B0621DDD493A00DD7AAC /* podVIew */;
+			targetProxy = 3E15B07D1DDD493C00DD7AAC /* PBXContainerItemProxy */;
+		};
+		3E15B0891DDD493C00DD7AAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E15B0621DDD493A00DD7AAC /* podVIew */;
+			targetProxy = 3E15B0881DDD493C00DD7AAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E15B06F1DDD493C00DD7AAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E15B0701DDD493C00DD7AAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E15B0741DDD493C00DD7AAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E15B0751DDD493C00DD7AAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E15B08E1DDD493D00DD7AAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E15B08F1DDD493D00DD7AAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E15B0911DDD493D00DD7AAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = podVIew/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CalvinZhang.podVIew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3E15B0921DDD493D00DD7AAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = podVIew/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CalvinZhang.podVIew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3E15B0941DDD493D00DD7AAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = podVIewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CalvinZhang.podVIewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/podVIew.app/podVIew";
+			};
+			name = Debug;
+		};
+		3E15B0951DDD493D00DD7AAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = podVIewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CalvinZhang.podVIewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/podVIew.app/podVIew";
+			};
+			name = Release;
+		};
+		3E15B0971DDD493D00DD7AAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = podVIewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CalvinZhang.podVIewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = podVIew;
+			};
+			name = Debug;
+		};
+		3E15B0981DDD493D00DD7AAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = podVIewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CalvinZhang.podVIewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = podVIew;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E15B05E1DDD493900DD7AAC /* Build configuration list for PBXProject "podVIew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E15B08E1DDD493D00DD7AAC /* Debug */,
+				3E15B08F1DDD493D00DD7AAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E15B0901DDD493D00DD7AAC /* Build configuration list for PBXNativeTarget "podVIew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E15B0911DDD493D00DD7AAC /* Debug */,
+				3E15B0921DDD493D00DD7AAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3E15B0931DDD493D00DD7AAC /* Build configuration list for PBXNativeTarget "podVIewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E15B0941DDD493D00DD7AAC /* Debug */,
+				3E15B0951DDD493D00DD7AAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3E15B0961DDD493D00DD7AAC /* Build configuration list for PBXNativeTarget "podVIewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E15B0971DDD493D00DD7AAC /* Debug */,
+				3E15B0981DDD493D00DD7AAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E15B05B1DDD493900DD7AAC /* Project object */;
+}
