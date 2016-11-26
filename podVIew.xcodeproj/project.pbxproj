@@ -15,6 +15,8 @@
 		3E15B0761DDD493C00DD7AAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E15B0741DDD493C00DD7AAC /* LaunchScreen.storyboard */; };
 		3E15B0811DDD493C00DD7AAC /* podVIewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E15B0801DDD493C00DD7AAC /* podVIewTests.m */; };
 		3E15B08C1DDD493C00DD7AAC /* podVIewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E15B08B1DDD493C00DD7AAC /* podVIewUITests.m */; };
+		3E15B09C1DDD496400DD7AAC /* UIViewController+KNSemiModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E15B09B1DDD496400DD7AAC /* UIViewController+KNSemiModal.m */; };
+		3E15B09F1DDD49C400DD7AAC /* PodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E15B09E1DDD49C400DD7AAC /* PodViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		3E15B0871DDD493C00DD7AAC /* podVIewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = podVIewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E15B08B1DDD493C00DD7AAC /* podVIewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = podVIewUITests.m; sourceTree = "<group>"; };
 		3E15B08D1DDD493C00DD7AAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E15B09A1DDD496400DD7AAC /* UIViewController+KNSemiModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+KNSemiModal.h"; sourceTree = "<group>"; };
+		3E15B09B1DDD496400DD7AAC /* UIViewController+KNSemiModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+KNSemiModal.m"; sourceTree = "<group>"; };
+		3E15B09D1DDD49C400DD7AAC /* PodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PodViewController.h; sourceTree = "<group>"; };
+		3E15B09E1DDD49C400DD7AAC /* PodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PodViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,9 @@
 				3E15B06A1DDD493C00DD7AAC /* AppDelegate.m */,
 				3E15B06C1DDD493C00DD7AAC /* ViewController.h */,
 				3E15B06D1DDD493C00DD7AAC /* ViewController.m */,
+				3E15B09D1DDD49C400DD7AAC /* PodViewController.h */,
+				3E15B09E1DDD49C400DD7AAC /* PodViewController.m */,
+				3E15B0991DDD496400DD7AAC /* KNSemiModal */,
 				3E15B06F1DDD493C00DD7AAC /* Main.storyboard */,
 				3E15B0721DDD493C00DD7AAC /* Assets.xcassets */,
 				3E15B0741DDD493C00DD7AAC /* LaunchScreen.storyboard */,
@@ -138,6 +147,15 @@
 				3E15B08D1DDD493C00DD7AAC /* Info.plist */,
 			);
 			path = podVIewUITests;
+			sourceTree = "<group>";
+		};
+		3E15B0991DDD496400DD7AAC /* KNSemiModal */ = {
+			isa = PBXGroup;
+			children = (
+				3E15B09A1DDD496400DD7AAC /* UIViewController+KNSemiModal.h */,
+				3E15B09B1DDD496400DD7AAC /* UIViewController+KNSemiModal.m */,
+			);
+			path = KNSemiModal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +289,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E15B06E1DDD493C00DD7AAC /* ViewController.m in Sources */,
+				3E15B09C1DDD496400DD7AAC /* UIViewController+KNSemiModal.m in Sources */,
+				3E15B09F1DDD49C400DD7AAC /* PodViewController.m in Sources */,
 				3E15B06B1DDD493C00DD7AAC /* AppDelegate.m in Sources */,
 				3E15B0681DDD493C00DD7AAC /* main.m in Sources */,
 			);
